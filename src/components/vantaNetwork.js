@@ -34,6 +34,10 @@ const h2Style = css`
     left: 55px;
     font-size: 3rem;
   }
+  @media (min-width: 1200px) {
+    left: 367px;
+    font-size: 3rem;
+  }
 `;
 
 const divVantaStyle = css`
@@ -45,6 +49,9 @@ const divVantaStyle = css`
   @media (min-width: 780px) {
     width: 93%;
     height: 185px !important;
+  }
+  @media (min-width: 1200px) {
+    width: 85%
   }
 `;
 
@@ -84,13 +91,13 @@ export const VantaRender = () => {
         css={h2Style}
         className={styles.h2Glitch}
         suppressContentEditableWarning={true}
-        contentEditable='true'
+        contentEditable='false'
       >
         KaDomA&#39;s
         <br />
-        peRsOnal
+        DeveLoPment
         <br />
-        SiTE.
+        WebSiTE.
       </h2>
       <div css={divVantaStyle} ref={vantaRef}></div>
     </section>
