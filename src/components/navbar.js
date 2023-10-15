@@ -6,7 +6,7 @@ import styles from '@/styles/textGlitch.module.scss';
 
 const headerStyle = css`
   width: 90%;
-  transform: translateY(25px);
+  transform: translateY(20px);
   color: white;
   z-index: 10;
   margin: 0 auto;
