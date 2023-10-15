@@ -110,7 +110,7 @@ const Navbar = () => {
         <nav css={headerNav}>
           {navs.map((nav) => {
             return (
-              <li title={nav.name} key={nav.id} css={liStyle} className={styles.glitchText}>
+              <li data-title={nav.name} key={nav.id} css={liStyle} className={styles.glitchText}>
                 <Link href={nav.href} css={linkStyle}>{nav.name}</Link>
               </li>
             );
