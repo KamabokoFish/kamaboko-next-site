@@ -66,7 +66,7 @@ const liStyle = css`
   position: relative;
   padding: 0px 5px;
   font-weight: 500 !important;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   height: 50px;
   z-index: 10;
 
