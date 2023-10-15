@@ -46,12 +46,6 @@ const WorksSection = () => {
       <div css={worksHeader}>
         <h2 css={h2Style}>MY Works...</h2>
       </div>
-      <div css={worksHeader}>
-        <h2 css={h2Style}>MY Works...</h2>
-      </div>
-      <div css={worksHeader}>
-        <h2 css={h2Style}>MY Works...</h2>
-      </div>
     </section>
   );
 };
