@@ -46,6 +46,7 @@ const navWrapper = css`
 `;
 
 const h1Style = css`
+  position: relative;
   font-weight: 500 !important;
   font-size: 1.5rem;
   @media (min-width: 780px) {
@@ -69,15 +70,21 @@ const liStyle = css`
   height: 50px;
   z-index: 10;
 
-  @media (min-width: 780px) {
-    padding: 0px 10px;
+  transition: 0.3s ease;
+  &:hover{
+    opacity: 0.7;
   }
+
   a {
     display: inline-block;
     width: 100%;
     height: 100%;
     line-height: 50px; 
     z-index: 10;
+    opacity: 1;
+  }
+  @media (min-width: 780px) {
+    padding: 0px 10px;
   }
 `;
 
@@ -108,12 +115,12 @@ const Navbar = () => {
     <header css={headerStyle}>
       <div css={navWrapper}>
         <div>
-          <h1 css={h1Style}>KADOMA</h1>
+          <h1 css={h1Style} className={styles.glitchText}>KADOMA</h1>
         </div>
         <nav css={headerNav}>
           {navs.map((nav) => {
             return (
-              <li data-title={nav.name} key={nav.id} css={liStyle} className={styles.glitchText}>
+              <li key={nav.id} css={liStyle}>
                 <Link href={nav.href} css={linkStyle}>{nav.name}</Link>
               </li>
             );
