@@ -8,7 +8,7 @@ const worksSection = css`
   align-items: center;
   flex-direction: column;
   gap: 50px;
-  margin-top: 75px;
+  margin-top: 84px;
 `;
 
 const worksHeader = css`
