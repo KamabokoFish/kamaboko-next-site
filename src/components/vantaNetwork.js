@@ -95,7 +95,7 @@ export const VantaRender = () => {
       >
         KaDomA&#39;s
         <br />
-        DeveLoPment
+        DeveLoPMent
         <br />
         WebSiTE.
       </h2>
