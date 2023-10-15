@@ -60,20 +60,23 @@ const headerNav = css`
   position: relative;
 `;
 
+// line-heightでaタグを縦に中央揃えすることに注意
 const liStyle = css`
   position: relative;
-  padding: 12px 5px;
+  padding: 0px 5px;
   font-weight: 500 !important;
   font-size: 1.1rem;
+  height: 50px;
   z-index: 10;
-  @media (min-width: 780px) {
-    padding: 12px 10px;
-  }
 
+  @media (min-width: 780px) {
+    padding: 0px 10px;
+  }
   a {
     display: inline-block;
     width: 100%;
     height: 100%;
+    line-height: 50px; 
     z-index: 10;
   }
 `;
