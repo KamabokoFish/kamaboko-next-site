@@ -2,22 +2,42 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
-  background-color: #fbf5f5;
+  height: 100%;
+  font-family:
+    'M PLUS Rounded 1c',
+    'Jura',
+    sans-serif,
+    Segoe UI,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue;
 }
 
-* {
-  box-sizing: border-box;
+/* when gradient is used as background, at some points gradient-tile has appered. */
+/* so, added background on :after element */
+body:after {
+  position: fixed; /*固定配置*/
+  top: 0;
+  left: 0; /*左上に固定*/
+  width: 100%;
+  height: 100%; /*画面全体を覆う*/
+  content: '';
+  z-index: -10;
+  background-color: hsla(240, 63%, 18%, 1);
+  background-image: radial-gradient(
+      at 40% 20%,
+      hsla(271, 62%, 16%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 80% 0%, hsla(251, 60%, 46%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(297, 48%, 43%, 1) 0px, transparent 50%),
+    radial-gradient(at 99% 99%, hsla(31, 61%, 63%, 0.62) 0px, transparent 50%);
 }
 
-a {
-  text-decoration: none;
+/* css for vanta */
+.vanta-canvas {
+  border-radius: 6px !important;
 }
-
-a:hover {
-  text-decoration: underline;
-}
-
