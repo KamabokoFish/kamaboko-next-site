@@ -35,7 +35,7 @@ const h2Style = css`
     font-size: 3rem;
   }
   @media (min-width: 1200px) {
-    left: 367px;
+    left: 356px;
     font-size: 3rem;
   }
 `;
