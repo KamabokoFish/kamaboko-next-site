@@ -8,7 +8,7 @@ const profileSection = css`
   justify-content: center;
   align-items: center;
   margin-top: 70px;
-`
+`;
 
 const ProfileSection = () => {
   return (
