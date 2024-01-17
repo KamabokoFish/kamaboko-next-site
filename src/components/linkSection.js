@@ -13,31 +13,30 @@ const linkSection = css`
   margin-top: 70px;
 
   .noise {
-    display: flex;
-    width: 88%;
+    width: 94%;
     height: 120%;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     z-index: -5;
     border-radius: 3px;
     /* drop-shadow */
     filter: drop-shadow(0px 0px 11px rgba(167, 36, 223, 0.6));
   }
-  @media (min-width: 780px) {
+  @media (min-width: 486px) {
     .noise {
       height: 150%;
-      width: 85%;
-      /* width:100%; */
     }
   }
+  @media (min-width: 1200px) {
+    .noise {
+      width: 82%;
+    }
 `;
 
 const LinkSection = () => {
   return (
     <section css={linkSection}>
       <LinkCard />
-      <img className='noise' src='/noise-2.gif' />
+      <img className='noise' src='/noise-4.gif' />
     </section>
   );
 };
