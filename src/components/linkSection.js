@@ -14,7 +14,7 @@ const linkSection = css`
 
   .noise {
     width: 94%;
-    height: 120%;
+    height: 115%;
     position: absolute;
     z-index: -5;
     border-radius: 3px;
