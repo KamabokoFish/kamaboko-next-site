@@ -28,7 +28,7 @@ const linkSection = css`
   }
   @media (min-width: 1200px) {
     .noise {
-      width: 82%;
+      width: 60%;
     }
 `;
 
