@@ -11,7 +11,7 @@ const worksStyle = css`
   flex-direction: column;
   gap: 25px;
 
-  width: 80%;
+  width: 85%;
   /* height: 300px;  */
   padding: 20px 30px 20px 30px;
   color: white;
