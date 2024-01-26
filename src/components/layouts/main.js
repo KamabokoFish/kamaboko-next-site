@@ -43,7 +43,7 @@ const Main = ({ children }) => {
           animate='enter'
           exit='exit'
           variants={variants}
-          transition={{ duration: 0.8, type: 'easeInOut' }}
+          transition={{ duration: 0.9, type: 'easeInOut' }}
           style={{ position: 'relative' }}
         >
           {children}
