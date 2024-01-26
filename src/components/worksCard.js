@@ -25,10 +25,15 @@ const worksStyle = css`
 
   img {
     border-radius: 10px;
-    width:65%;
+    width: 65%;
   }
-  p{
+  p {
     font-size: 18px;
+  }
+  @media (min-width: 780px) {
+    p {
+      font-size: 22px;
+    }
   }
 `;
 
@@ -56,10 +61,7 @@ const worksCard = () => {
             transition={{ type: 'spring', stiffness: 900, damping: 80 }}
           >
             <h2>{work.title}</h2>
-            <img
-              src={work.image}
-              alt='product-image'
-            />
+            <img src={work.image} alt='product-image' />
             <p>{work.desc}</p>
           </motion.a>
         );
