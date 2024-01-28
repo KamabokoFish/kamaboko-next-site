@@ -3,6 +3,8 @@
 import { css } from '@emotion/react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+// import roulletImage from '../../public/nyowa-roullete.png'
+// import passwordImage from '../../public/password-mock.png'
 
 const worksStyle = css`
   display: flex;

@@ -2,6 +2,8 @@
 
 import { css } from '@emotion/react';
 import LinkCard from './linkCard';
+import Image from 'next/image';
+import noiseImage from '../../public/noise-4.gif'
 
 const linkSection = css`
   display: flex;
@@ -38,7 +40,7 @@ const LinkSection = () => {
   return (
     <section css={linkSection}>
       <LinkCard />
-      <img className='noise' src='/noise-4.gif' />
+      <Image className='noise' src={noiseImage} priority={true} alt='noise' />
     </section>
   );
 };
