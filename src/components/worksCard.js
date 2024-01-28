@@ -25,7 +25,7 @@ const worksStyle = css`
 
   img {
     border-radius: 10px;
-    width: 65%;
+    width: 80%;
   }
   p {
     font-size: 17px;
@@ -35,6 +35,9 @@ const worksStyle = css`
   }
 
   @media (min-width: 780px) {
+    img {
+      width: 60%;
+    }
     p {
       font-size: 22px;
     }
