@@ -15,7 +15,7 @@ const linkSection = css`
   margin-top: 70px;
 
   .noise {
-    width: 94%;
+    width: 92%;
     height: 115%;
     position: absolute;
     z-index: -5;
@@ -33,8 +33,6 @@ const linkSection = css`
       width: 60%;
     }
 `;
-
-
 
 const LinkSection = () => {
   return (
