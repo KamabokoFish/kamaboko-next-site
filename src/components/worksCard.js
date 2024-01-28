@@ -36,7 +36,7 @@ const worksStyle = css`
 
   @media (min-width: 780px) {
     img {
-      width: 60%;
+      width: 50%;
     }
     p {
       font-size: 22px;
