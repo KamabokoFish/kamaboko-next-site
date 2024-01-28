@@ -28,11 +28,18 @@ const worksStyle = css`
     width: 65%;
   }
   p {
-    font-size: 18px;
+    font-size: 17px;
   }
+  h2 {
+    font-size: 21px;
+  }
+
   @media (min-width: 780px) {
     p {
       font-size: 22px;
+    }
+    h2 {
+      font-size: 26px;
     }
   }
 `;
@@ -44,6 +51,13 @@ const worksData = [
     image: '/nyowa-roullete.png',
     href: 'https://nyowa-rou-2024.netlify.app/',
     desc: '新年を占うためのおみくじ🎍',
+  },
+  {
+    id: 1,
+    title: 'バリデーション・モック',
+    image: '/password-mock.png',
+    href: 'https://password-mock.netlify.app/',
+    desc: 'パス入力欄のモック🔒',
   },
 ];
 
@@ -61,7 +75,7 @@ const worksCard = () => {
             transition={{ type: 'spring', stiffness: 900, damping: 80 }}
           >
             <h2>{work.title}</h2>
-            <img src={work.image} alt='product-image' />
+            <img src={work.image} alt='works-image' />
             <p>{work.desc}</p>
           </motion.a>
         );
