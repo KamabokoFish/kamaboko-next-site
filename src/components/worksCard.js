@@ -53,14 +53,14 @@ const worksData = [
   {
     id: 0,
     title: 'にょわクジ2024',
-    image: '/nyowa-roullete.png',
+    image: '/nyowa-roullete.jpg',
     href: 'https://nyowa-rou-2024.netlify.app/',
     desc: '新年を占うためのおみくじ🎍',
   },
   {
     id: 1,
     title: 'バリデーション・モック',
-    image: '/password-mock.png',
+    image: '/password-mock.jpg',
     href: 'https://password-mock.netlify.app/',
     desc: 'パス入力欄のモック🔒',
   },

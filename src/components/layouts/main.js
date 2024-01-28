@@ -22,7 +22,7 @@ const divStyle = css`
 const variants = {
   init: { opacity: 0, x: 0, y: 20 },
   enter: { opacity: 1, x: 0, y: 0 },
-  exit: { opacity: 0, x: -0, y: 20 },
+  exit: { opacity: 0, x: 0, y: 20 },
 };
 
 const Main = ({ children }) => {
@@ -43,7 +43,7 @@ const Main = ({ children }) => {
           animate='enter'
           exit='exit'
           variants={variants}
-          transition={{ duration: 0.9, type: 'easeInOut' }}
+          transition={{ duration: 1.0, type: 'easeInOut' }}
           style={{ position: 'relative' }}
         >
           {children}
