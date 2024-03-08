@@ -11,7 +11,7 @@ const worksStyle = css`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 25px;
+  gap: 22px;
 
   width: 85%;
   /* height: 300px;  */
@@ -33,7 +33,13 @@ const worksStyle = css`
     font-size: 17px;
   }
   h2 {
-    font-size: 21px;
+    font-size: 22px;
+  }
+  .description{
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    align-items:center
   }
 
   @media (min-width: 780px) {
@@ -41,7 +47,7 @@ const worksStyle = css`
       width: 50%;
     }
     p {
-      font-size: 22px;
+      font-size: 21px;
     }
     h2 {
       font-size: 26px;
@@ -55,14 +61,18 @@ const worksData = [
     title: 'にょわクジ2024',
     image: '/nyowa-roullete.jpg',
     href: 'https://nyowa-rou-2024.netlify.app/',
-    desc: '新年を占うためのおみくじ🎍',
+    mainDesc: '新年を占うためのおみくじ🎍',
+    techDesc: 'HTML,CSS,JS,Three.js',
+    otherDesc: 'Deployed by Netlify'
   },
   {
     id: 1,
     title: 'バリデーション・モック',
     image: '/password-mock.jpg',
     href: 'https://password-mock.netlify.app/',
-    desc: 'パス入力欄のモック🔒',
+    mainDesc: 'パス入力欄のモックUI',
+    techDesc: 'HTML,CSS,JS,Vanilla-Tilt',
+    otherDesc: 'Deployed by Netlify'
   },
 ];
 
@@ -81,7 +91,11 @@ const worksCard = () => {
           >
             <h2>{work.title}</h2>
             <img src={work.image} alt='works-image' />
-            <p>{work.desc}</p>
+            <div className='description'>
+              <p>{work.mainDesc}</p>
+              <span>{work.techDesc}</span>
+              <span>{work.otherDesc}</span>
+            </div>
           </motion.a>
         );
       })}
