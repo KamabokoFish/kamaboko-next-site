@@ -63,7 +63,7 @@ const worksData = [
     href: 'https://nyowa-rou-2024.netlify.app/',
     mainDesc: '新年を占うためのおみくじ🎍',
     techDesc: 'HTML,CSS,JS,Three.js',
-    otherDesc: 'Deployed by Netlify'
+    // otherDesc: 'Deployed by Netlify'
   },
   {
     id: 1,
@@ -72,7 +72,7 @@ const worksData = [
     href: 'https://password-mock.netlify.app/',
     mainDesc: 'パス入力欄のモックUI',
     techDesc: 'HTML,CSS,JS,Vanilla-Tilt',
-    otherDesc: 'Deployed by Netlify'
+    // otherDesc: 'Deployed by Netlify'
   },
 ];
 
@@ -94,7 +94,7 @@ const worksCard = () => {
             <div className='description'>
               <p>{work.mainDesc}</p>
               <span>{work.techDesc}</span>
-              <span>{work.otherDesc}</span>
+              {/* <span>{work.otherDesc}</span> */}
             </div>
           </motion.a>
         );
