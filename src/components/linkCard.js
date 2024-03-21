@@ -33,15 +33,14 @@ const linkStyle = css`
   color: white;
   width: 100%;
   height: 100%;
-`
-
+`;
 
 const links = [
   {
     id: 0,
     name: 'Twitter(X)',
     icon: <FaTwitter size={50} color={'#89e5f1'} />,
-    href: 'https://twitter.com/kadoma56',
+    href: 'https://twitter.com/kamaboko_atsu',
   },
   {
     id: 1,
@@ -70,7 +69,7 @@ const LinkCard = () => {
           >
             <Link css={linkStyle} href={link.href}>
               {link.icon}
-              <p >{link.name}</p>
+              <p>{link.name}</p>
             </Link>
           </motion.div>
         );

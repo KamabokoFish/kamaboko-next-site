@@ -27,7 +27,7 @@ const cardStyle = css`
 const mailHeader = css`
   display: flex;
   align-items: center;
-`
+`;
 
 const ContactCard = () => {
   return (
@@ -36,8 +36,10 @@ const ContactCard = () => {
       whileHover={{ scale: 1.1 }}
       transition={{ type: 'spring', stiffness: 400, damping: 10 }}
     >
-      <p css={mailHeader}><BiMailSend size={28} color={'#b095db'} /></p>
-      <strong>kadoma.fukakusa248(🍥)gmail.com</strong>
+      <p css={mailHeader}>
+        <BiMailSend size={28} color={'#b095db'} />
+      </p>
+      <strong>SNS経由でご連絡ください🌵</strong>
     </motion.div>
   );
 };

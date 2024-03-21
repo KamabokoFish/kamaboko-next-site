@@ -60,15 +60,15 @@ const ProfileCard = () => {
         height={130}
       />
       <div css={iconHeader} className='icon-header'>
-        <small>ふかくさかどま</small>
-        <h3>Kadoma-Fukakusa</h3>
-        <small>Frontend dev.</small>
+        <small>かまぼこ</small>
+        <h3>Kamaboko-Atsu</h3>
+        <small>Frontend Dev.</small>
       </div>
       <div css={paragraph} className='paragraph'>
         <p>パソコンをｶﾀｶﾀしています</p>
         <p>フロントエンドがすき</p>
         <p>好きなもの:</p>
-        <p>React,Rust,OCaml,Neovim,etc...</p>
+        <p>React,OCaml,Neovim,etc...</p>
       </div>
     </motion.div>
   );

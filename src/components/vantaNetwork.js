@@ -51,7 +51,7 @@ const divVantaStyle = css`
     height: 185px !important;
   }
   @media (min-width: 1200px) {
-    width: 85%
+    width: 85%;
   }
 `;
 
@@ -93,7 +93,7 @@ export const VantaRender = () => {
         suppressContentEditableWarning={true}
         contentEditable='false'
       >
-        KaDomA&#39;s
+        KaMaboko&#39;s
         <br />
         DeveLoPMent
         <br />

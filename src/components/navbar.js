@@ -71,7 +71,7 @@ const liStyle = css`
   z-index: 10;
 
   transition: 0.3s ease;
-  &:hover{
+  &:hover {
     opacity: 0.7;
   }
 
@@ -79,7 +79,7 @@ const liStyle = css`
     display: inline-block;
     width: 100%;
     height: 100%;
-    line-height: 50px; 
+    line-height: 50px;
     z-index: 10;
     opacity: 1;
   }
@@ -90,7 +90,7 @@ const liStyle = css`
 
 const linkStyle = css`
   color: white;
-`
+`;
 
 const navs = [
   {
@@ -115,13 +115,17 @@ const Navbar = () => {
     <header css={headerStyle}>
       <div css={navWrapper}>
         <div>
-          <h1 css={h1Style} className={styles.glitchText}>KADOMA</h1>
+          <h1 css={h1Style} className={styles.glitchText}>
+            KAMABOKO
+          </h1>
         </div>
         <nav css={headerNav}>
           {navs.map((nav) => {
             return (
               <li key={nav.id} css={liStyle}>
-                <Link href={nav.href} css={linkStyle}>{nav.name}</Link>
+                <Link href={nav.href} css={linkStyle}>
+                  {nav.name}
+                </Link>
               </li>
             );
           })}
