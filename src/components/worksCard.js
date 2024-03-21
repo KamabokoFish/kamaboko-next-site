@@ -35,11 +35,11 @@ const worksStyle = css`
   h2 {
     font-size: 22px;
   }
-  .description{
-    display:flex;
-    flex-flow:column;
-    justify-content:center;
-    align-items:center
+  .description {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
   }
 
   @media (min-width: 780px) {
@@ -58,7 +58,7 @@ const worksStyle = css`
 const worksData = [
   {
     id: 0,
-    title: 'にょわクジ2024',
+    title: 'おみクジ2024',
     image: '/nyowa-roullete.jpg',
     href: 'https://nyowa-rou-2024.netlify.app/',
     mainDesc: '新年を占うためのおみくじ🎍',
