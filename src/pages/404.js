@@ -3,13 +3,12 @@
 import { css } from '@emotion/react';
 
 const notFountdiv = css`
-width: 100%;
-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-
-`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
 const notFoundStyle = css`
   display: flex;
