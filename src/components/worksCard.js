@@ -14,8 +14,7 @@ const worksStyle = css`
   gap: 22px;
 
   width: 85%;
-  /* height: 300px;  */
-  padding: 20px 30px 20px 30px;
+  padding: 20px 10px;
   color: white;
 
   background: rgba(243, 240, 240, 0.1);
@@ -27,7 +26,7 @@ const worksStyle = css`
 
   img {
     border-radius: 10px;
-    width: 80%;
+    width: 65%;
   }
   p {
     font-size: 17px;
@@ -43,9 +42,9 @@ const worksStyle = css`
   }
 
   @media (min-width: 780px) {
-    img {
-      width: 50%;
-    }
+    /* img { */
+    /*   width: 50%; */
+    /* } */
     p {
       font-size: 21px;
     }
