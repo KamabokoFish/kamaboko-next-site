@@ -14,7 +14,7 @@ const worksStyle = css`
   gap: 22px;
 
   width: 85%;
-  padding: 20px 10px;
+  padding: 25px 10px;
   color: white;
 
   background: rgba(243, 240, 240, 0.1);
@@ -46,7 +46,7 @@ const worksStyle = css`
     /*   width: 50%; */
     /* } */
     p {
-      font-size: 21px;
+      font-size: 20px;
     }
     h2 {
       font-size: 26px;
