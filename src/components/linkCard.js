@@ -40,7 +40,7 @@ const links = [
     id: 0,
     name: 'Twitter(X)',
     icon: <FaTwitter size={50} color={'#89e5f1'} />,
-    href: 'https://twitter.com/kamaboko_atsu',
+    href: 'https://twitter.com/kamaboko_suri3',
   },
   {
     id: 1,
