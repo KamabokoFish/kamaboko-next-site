@@ -13,12 +13,12 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #9b95d9 50%);
+  background: linear-gradient(45deg, #d5e7eb42 3%, #9b95d9 50%);
   clip-path: var(--slice-0);
 }
 
-.glitchText:hover::after {
-  animation: 0.4s glitch;
+.glitchText:after {
+  animation: 0.4s glitch infinite;
   animation-timing-function: steps(2, end);
 }
 
