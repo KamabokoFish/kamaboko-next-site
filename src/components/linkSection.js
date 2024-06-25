@@ -38,7 +38,7 @@ const LinkSection = () => {
   return (
     <section css={linkSection}>
       <LinkCard />
-      <Image className='noise' src={noiseImage} priority={true} alt='noise' />
+      {/* <Image className='noise' src={noiseImage} priority={true} alt='noise' /> */}
     </section>
   );
 };

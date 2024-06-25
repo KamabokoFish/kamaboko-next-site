@@ -19,7 +19,7 @@ const footer = css`
 const Footer = () => {
   return (
     <footer css={footer}>
-      kadoma-fukakusa {new Date().getFullYear()}
+      Kamaboko-Atsu {new Date().getFullYear()}
     </footer>
   );
 };
